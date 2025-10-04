@@ -2803,7 +2803,7 @@ media_data = {
         "description": "Журналист Юрий Ельцов и следователь Игорь Анохин расследуют запутанное дело об ограблении, которое приводит их к высокопоставленным чиновникам и крупному преступному заговору в 1979 году.",
         "poster_url": "https://images-s.kinorium.com/movie/poster/10932927/w1500_53519633.jpg",
         "player_url": "https://etelstan-as.stloadi.live/?token_movie=b25930b4bd09565d6ab7f098481f31&token=afcbfffc9c65a47844d1ad489212f3",
-        "rating": "5.9"
+        "rating": "5.9",
         "episodes": 12,
         "seasons": 1,
     },
