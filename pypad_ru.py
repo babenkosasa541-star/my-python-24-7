@@ -3625,9 +3625,9 @@ media_data = {
             "Владимир Ильин", "Алёна Хмельницкая"
         ],
         "description": "Наивная провинциальная девушка с прекрасным голосом приезжает в Москву, чтобы стать звездой. Ее судьба оказывается в руках двух не самых удачливых, но очень предприимчивых продюсеров, которые пытаются сделать из нее звезду эстрады.",
-        "poster_url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/d32f5207-e818-4981-8051-2c97495b46e3/orig",
+        "poster_url": "https://images-s.kinorium.com/movie/poster/214492/w1500_52233393.jpg"",
         "rating": "6.7",
-        "player_url": "https://images-s.kinorium.com/movie/poster/214492/w1500_52233393.jpg"
+        "player_url": "https://polynoy-as.newplayjj.com:9443/?kp=41283&token=e9a962df5e96874972bd776d247fa6&theme=2"
     },
 "landysh-serebristyy-2": {
         "title": "Ландыш серебристый 2",
