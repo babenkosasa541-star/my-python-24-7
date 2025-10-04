@@ -5047,7 +5047,7 @@ media_data = {
             "Вячеслав Гришечкин"
         ],
         "description": "Молодой следователь Стас Ставицкий и его напарница Люся Ракитина расследуют запутанные уголовные дела, часто связанные с личными драмами. Люся, недавно пережившая трагедию, видит в работе своеобразное 'чистосердечное призвание', а ее профессионализм постоянно спасает Стаса от ошибок.",
-        "poster_url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/d32f5207-e818-4981-8051-2c97495b46e3/orig",
+        "poster_url": "https://images.kinorium.com/movie/poster/2661206/w1500_49986649.jpg",
         "rating": "6.0",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=e4d010eca892c31f9acfc69bd7ee42&token=9e664db6a930781b0597f2631aaecd"
     },
