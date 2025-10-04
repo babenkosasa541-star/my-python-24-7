@@ -4010,7 +4010,7 @@ media_data = {
             "Сергей Бурунов", "Лев Прыгунов"
         ],
         "description": "Продолжение истории Макса, который пытается начать новую, спокойную жизнь на Бали, отказавшись от столичной суеты. Однако загадочные события вынуждают его вернуться в Москву, где ему предстоит вновь погрузиться в мир интриг, коррупции и большого бизнеса.",
-        "poster_url": "hhttps://images-s.kinorium.com/movie/poster/719420/w1500_51647189.jpg",
+        "poster_url": "https://images-s.kinorium.com/movie/poster/719420/w1500_51647189.jpg",
         "rating": "6.6",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=a9e26fb4ab5ca725b0e1f9cd53da0c&token=9e664db6a930781b0597f2631aaecd"
     },
