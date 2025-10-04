@@ -2804,6 +2804,8 @@ media_data = {
         "poster_url": "https://images-s.kinorium.com/movie/poster/10932927/w1500_53519633.jpg",
         "player_url": "https://etelstan-as.stloadi.live/?token_movie=b25930b4bd09565d6ab7f098481f31&token=afcbfffc9c65a47844d1ad489212f3",
         "rating": "5.9"
+        "episodes": 12,
+        "seasons": 1,
     },
 "posledniy-ment": {
         "title": "Последний мент",
@@ -2989,7 +2991,7 @@ media_data = {
         ],
         "description": "Четверо современных школьников, отдыхая в лагере «Артек», загадывают желания у волшебного дерева и переносятся на 30 лет назад — в 1988 год. Там они встречают своих родителей в юности и должны вместе найти способ вернуться в настоящее.",
         "poster_url": "https://images-s.kinorium.com/movie/poster/2086190/w1500_54089504.jpg",
-        "player_url": "https://etelstan-as.stloadi.live/?token_movie=f6d9f9284386d564cc1eef7595a0a5&token=afcbfffc9c65a47844d1ad489212f3",
+        "player_url": "https://p.lumex.space/qIO6FmbNrVvi/movie/58353",
         "rating": "7.6"
     },
 "gruppa-krovi": {
@@ -3647,7 +3649,7 @@ media_data = {
             "Нонна Гришаева", "Валерий Гаркалин", "Елена Коренева"
         ],
         "description": "Продолжение истории о певице Зое и ее двух продюсерах. Их ждут новые приключения, интриги шоу-бизнеса и забавные ситуации, связанные с их попытками покорить эстрадный Олимп.",
-        "poster_url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/d32f5207-e818-4981-8051-2c97495b46e3/orig",
+        "poster_url": "https://images.kinorium.com/movie/cover/340312/w1500_37707340.jpg",
         "rating": "5.8",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=a76cdcc8c0ecf4fe8ba374a231bb82&token=9e664db6a930781b0597f2631aaecd"
     },
@@ -4656,7 +4658,7 @@ media_data = {
             "Надежда Михалкова"
         ],
         "description": "История о путешествии взрослого героя к своему Бате, суровому русскому мужику, который стал отцом на заре девяностых и воспитывал своего сына так, как это делали все советские люди.",
-        "poster_url": "hhttps://images-s.kinorium.com/movie/poster/12331467/w1500_54849284.jpg",
+        "poster_url": "https://images-s.kinorium.com/movie/poster/12331467/w1500_54849284.jpg",
         "rating": "6.4",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=197ed858034dafdaf0203d824c1b17&token=9e664db6a930781b0597f2631aaecd"
     },
