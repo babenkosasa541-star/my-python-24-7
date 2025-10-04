@@ -3625,7 +3625,7 @@ media_data = {
             "Владимир Ильин", "Алёна Хмельницкая"
         ],
         "description": "Наивная провинциальная девушка с прекрасным голосом приезжает в Москву, чтобы стать звездой. Ее судьба оказывается в руках двух не самых удачливых, но очень предприимчивых продюсеров, которые пытаются сделать из нее звезду эстрады.",
-        "poster_url": "https://images-s.kinorium.com/movie/poster/214492/w1500_52233393.jpg"",
+        "poster_url": "https://images-s.kinorium.com/movie/poster/214492/w1500_52233393.jpg",
         "rating": "6.7",
         "player_url": "https://polynoy-as.newplayjj.com:9443/?kp=41283&token=e9a962df5e96874972bd776d247fa6&theme=2"
     },
