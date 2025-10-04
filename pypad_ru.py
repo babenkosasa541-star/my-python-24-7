@@ -3243,7 +3243,7 @@ media_data = {
       "Юрий Кузнецов"
     ],
     "description": "Генерал Иволгин, Кузьмич и Лёва Соловейчик отправляются на очередную зимнюю охоту. Но вместо добычи, они находят всё те же философские разговоры, много алкоголя и нелепые, смешные ситуации, в которых они попадают. Фильм продолжает историю о «русской душе» и её особенностях.",
-    "poster_url": "https://images-s.kinorium.com/movie/poster/215646/w1500_54002382.jpg",
+    "poster_url": "https://ru-images.kinorium.com/movie/1080/215646.jpg?1759129345",
     "player_url": "https://api.rstprgapipt.com/balancer-api/iframe?movie_id=33042",
     "rating": "7.0",
     "duration": "1 ч. 13 мин."
