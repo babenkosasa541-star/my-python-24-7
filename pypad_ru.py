@@ -1650,7 +1650,7 @@ media_data = {
         "age_rating": "16+",
         "seasons": "1",
         "episodes": 10,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "genre": "фэнтези, драма, мистика",
         "actors": [
             "Александр Галибин", "Анна Ковальчук", "Олег Басилашвили",
@@ -1673,7 +1673,7 @@ media_data = {
         "age_rating": "16+",
         "seasons": "2",
         "episodes": 16,
-        "episode_duration": "~55 мин.",
+        "duration": "~55 мин.",
         "genre": "триллер, драма, фантастика",
         "actors": [
             "Кирилл Кяро", "Виктория Исакова", "Александр Робак",
@@ -1696,7 +1696,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 16,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 2,
         "genre": "триллер, драма, криминал",
         "actors": [
@@ -1721,7 +1721,7 @@ media_data = {
         "age_rating": "16+",
         "seasons": 1,
         "episodes": 8,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "genre": "биография, драма, история",
         "actors": [
             "Константин Хабенский", "Ольга Сутулова",
@@ -1744,7 +1744,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 120,
-        "episode_duration": "~24 мин.",
+        "duration": "~24 мин.",
         "seasons": 6,
         "genre": "комедия, драма",
         "actors": [
@@ -1768,7 +1768,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 14,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 1,
         "genre": "криминал, драма, история",
         "actors": [
@@ -1792,7 +1792,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 48,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 4,
         "genre": "криминал, драма",
         "actors": [
@@ -1816,7 +1816,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 16,
-        "episode_duration": "~48 мин.",
+        "duration": "~48 мин.",
         "seasons": 1,
         "genre": "драма, мелодрама, комедия",
         "actors": [
@@ -1840,7 +1840,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 12,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 1,
         "genre": "драма, история",
         "actors": [
@@ -1864,7 +1864,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 8,
-        "episode_duration": "50 мин.",
+        "duration": "50 мин.",
         "seasons": 1,
         "genre": "криминал, драма, история",
         "actors": [
@@ -1888,7 +1888,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 66,
-        "episode_duration": "~24 мин.",
+        "duration": "~24 мин.",
         "seasons": 3,
         "genre": "комедия, ситком",
         "actors": [
@@ -1912,7 +1912,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 224,
-        "episode_duration": "~45 мин.",
+        "duration": "~45 мин.",
         "seasons": 12,
         "genre": "мелодрама,драма",
         "actors": [
@@ -1936,7 +1936,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 40,
-        "episode_duration": "48 мин.",
+        "duration": "48 мин.",
         "seasons": 5,
         "genre": "комедия, криминал",
         "actors": [
@@ -1960,7 +1960,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 410,
-        "episode_duration": "24 мин.",
+        "duration": "24 мин.",
         "seasons": 20,
         "genre": "комедия, семейный",
         "actors": [
@@ -1985,7 +1985,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 412,
-        "episode_duration": "~45 мин.",
+        "duration": "~45 мин.",
         "seasons": 24,
         "genre": "детектив, криминал",
         "actors": [
@@ -2009,7 +2009,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 16,
-        "episode_duration": "~48 мин.",
+        "duration": "~48 мин.",
         "seasons": 2,
         "genre": "фантастика, триллер",
         "actors": [
@@ -2033,7 +2033,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 8,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 1,
         "genre": "детектив, триллер, криминал",
         "actors": [
@@ -2058,7 +2058,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 15,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 1,
         "genre": "криминал, драма",
         "actors": [
@@ -2082,7 +2082,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 38,
-        "episode_duration": "~24 мин.",
+        "duration": "~24 мин.",
         "seasons": 2,
         "genre": "комедия, драма",
         "actors": [
@@ -2106,7 +2106,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 32,
-        "episode_duration": "~55 мин.",
+        "duration": "~55 мин.",
         "seasons": 4,
         "genre": "драма, триллер",
         "actors": [
@@ -2130,7 +2130,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 8,
-        "episode_duration": "~50 мин.",
+        "duration": "~50 мин.",
         "seasons": 1,
         "genre": "драма, криминал",
         "actors": [
@@ -2154,7 +2154,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 98,
-        "episode_duration": "~24 мин.",
+        "duration": "~24 мин.",
         "seasons": 5,
         "genre": "комедия, ситком",
         "actors": [
@@ -2178,7 +2178,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 12,
-        "episode_duration": "~1 ч.",
+        "duration": "~1 ч.",
         "seasons": 1,
         "genre": "комедия, сатира",
         "actors": [
@@ -2202,7 +2202,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 26,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 2,
         "genre": "комедия, драма",
         "actors": [
@@ -2226,7 +2226,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 5,
-        "episode_duration": "1 ч. 10 мин.",
+        "duration": "1 ч. 10 мин.",
         "seasons": 1,
         "status": "завершен",
         "genre": "детектив, криминал, рама",
@@ -2251,7 +2251,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 160,
-        "episode_duration": "~45 мин",
+        "duration": "~45 мин",
         "seasons": 3,
         "genre": "драма, подростковый",
         "actors": [
@@ -2275,7 +2275,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 69,
-        "episode_duration": "25 мин",
+        "duration": "25 мин",
         "seasons": 1,
         "genre": "драма",
         "actors": [
@@ -2299,7 +2299,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 160,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 3,
         "genre": "детектив, драма, криминал",
         "actors": [
@@ -2323,7 +2323,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 8,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "криминал, мелодрама",
         "actors": [
@@ -2347,7 +2347,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 260,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 6,
         "genre": "драма, спорт",
         "actors": [
@@ -2371,7 +2371,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 16,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "драма, мелодрама",
         "actors": [
@@ -2395,7 +2395,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 12,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "комедия, драма, детектив",
         "actors": [
@@ -2420,7 +2420,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 120,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 8,
         "genre": "детектив, криминал",
         "actors": [
@@ -2444,7 +2444,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 8,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "детектив, триллер",
         "actors": [
@@ -2468,7 +2468,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 40,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 3,
         "genre": "драма, триллер",
         "actors": [
@@ -2491,7 +2491,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "0+",
-        "episode_duration": "1 ч. 28 мин.",
+        "duration": "1 ч. 28 мин.",
         "genre": "мультфильм, приключения, комедия, семейный",
         "actors": [
             "Антон Виноградов", "Владимир Постников",
@@ -2513,7 +2513,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "6+",
-        "episode_duration": "1 ч. 20 мин.",
+        "duration": "1 ч. 20 мин.",
         "genre": "мультфильм, приключения, комедия, семейный",
         "actors": [
             "Вадим Бочанов", "Сергей Мардарь",
@@ -2535,7 +2535,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "6+",
-        "episode_duration": "1 ч. 20 мин.",
+        "duration": "1 ч. 20 мин.",
         "genre": "мультфильм, приключения, комедия, семейный",
         "actors": [
             "Антон Виноградов", "Владимир Постников",
@@ -2558,7 +2558,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 8,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 1,
         "genre": "детектив, триллер",
         "actors": [
@@ -2582,7 +2582,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 16,
-        "episode_duration": "~40 мин",
+        "duration": "~40 мин",
         "seasons": 2,
         "genre": "криминал, драма, триллер",
         "actors": [
@@ -2607,7 +2607,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 39,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 3,
         "genre": "комедия, фантастика, постапокалипсис, сатира",
         "actors": [
@@ -2631,7 +2631,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 40,
-        "episode_duration": "~26 мин",
+        "duration": "~26 мин",
         "seasons": 2,
         "genre": "комедия",
         "actors": [
@@ -2655,7 +2655,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 12,
-        "episode_duration": "~26 мин",
+        "duration": "~26 мин",
         "seasons": 1,
         "genre": "драма, комедия",
         "actors": [
@@ -2679,7 +2679,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 12,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "драма, комедия",
         "actors": [
@@ -2704,7 +2704,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 17,
-        "episode_duration": "~26 мин",
+        "duration": "~26 мин",
         "seasons": 1,
         "genre": "комедия",
         "actors": [
@@ -2728,7 +2728,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 20,
-        "episode_duration": "~27 мин",
+        "duration": "~27 мин",
         "seasons": 1,
         "genre": "комедия",
         "actors": [
@@ -2819,7 +2819,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 106,
-        "episode_duration": "~40 мин",
+        "duration": "~40 мин",
         "seasons": 3,
         "genre": "детектив, драма, криминал, комедия",
         "actors": [
@@ -2843,7 +2843,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 34,
-        "episode_duration": "~40 мин",
+        "duration": "~40 мин",
         "seasons": 1,
         "genre": "детектив",
         "actors": [
@@ -2866,7 +2866,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 10,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 1,
         "genre": "комедия, семейный, фантастика",
         "actors": [
@@ -2890,7 +2890,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "18+",
-        "episode_duration": "1 ч. 39 мин.",
+        "duration": "1 ч. 39 мин.",
         "seasons": None,
         "genre": "драма",
         "actors": [
@@ -2913,7 +2913,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "16+",
-        "episode_duration": "2 ч. 1 мин.",
+        "duration": "2 ч. 1 мин.",
         "genre": ["комедия", "мелодрама", "музыкальный", "фантастика", "фэнтези"],
         "actors": [
             "Роман Евдокимов", "Стася Милославская", "Аглая Шиловская",
@@ -2935,7 +2935,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "12+",
-        "episode_duration": "~1 ч. 30 мин.",
+        "duration": "~1 ч. 30 мин.",
         "genre": "комедия",
         "actors": [
             "Павел Прилучный", "Алексей Чадов", "Ольга Погодина",
@@ -2958,7 +2958,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "6+",
-        "episode_duration": "1 ч. 40 мин.",
+        "duration": "1 ч. 40 мин.",
         "genre": "комедия, приключения, семейный, фэнтези",
         "actors": [
             "Михаил Галустян", "Тимофей Попович", "Роман Постовалов",
@@ -2982,7 +2982,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "6+",
-        "episode_duration": "1 ч. 48 мин.",
+        "duration": "1 ч. 48 мин.",
         "director": "Карен Захаров, Армен Ананикян",
         "actors": [
             "Михаил Галустян", "Елизавета Моряк", "Людмила Артемьева",
@@ -3005,7 +3005,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "12+",
-        "episode_duration": "1 ч. 38 мин.",
+        "duration": "1 ч. 38 мин.",
         "genre": "военный, драма",
         "actors": [
             "Карина Андоленко", "Петар Зекавица", "Андрей Рудыка",
@@ -3028,7 +3028,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "18+",
-        "episode_duration": "1 ч. 23 мин.",
+        "duration": "1 ч. 23 мин.",
         "genre": "комедия, фэнтези, драма",
         "actors": [
             "Павел Деревянко", "Соня Присс", "Иван Злобин",
@@ -3050,7 +3050,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "18+",
-        "episode_duration": "1 ч. 36 мин.",
+        "duration": "1 ч. 36 мин.",
         "genre": "комедия, мелодрама",
         "actors": [
             "Дмитрий Нагиев", "Ирина Пегова", "Олеся Судзиловская",
@@ -3072,7 +3072,7 @@ media_data = {
         "country": "Россия",
         "translation": "Оригинальный",
         "age_rating": "16+",
-        "episode_duration": "1 ч. 30 мин.",
+        "duration": "1 ч. 30 мин.",
         "genre": "мелодрама, детектив",
         "actors": [
             "Наталья Рудова", "Егор Пазенко", "Олеся Власова",
@@ -3260,7 +3260,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 16,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 1,
         "genre": "драма, криминал, детектив",
         "actors": [
@@ -3284,7 +3284,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 108,
-        "episode_duration": "~45 мин",
+        "duration": "~45 мин",
         "seasons": 4,
         "genre": "детектив, криминал",
         "actors": [
@@ -3309,7 +3309,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 40,
-        "episode_duration": "~24 мин",
+        "duration": "~24 мин",
         "seasons": 2,
         "genre": "комедия",
         "actors": [
@@ -3333,7 +3333,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 40,
-        "episode_duration": "~22 мин",
+        "duration": "~22 мин",
         "seasons": 2,
         "genre": "комедия",
         "actors": [
@@ -3357,7 +3357,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 160,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 2,
         "genre": "драма",
         "actors": [
@@ -3381,7 +3381,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "6+",
         "episodes": 173,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 7,
         "genre": "комедия, семейный",
         "actors": [
@@ -3405,7 +3405,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 72,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 6,
         "genre": "детектив, криминал, драма",
         "actors": [
@@ -3429,7 +3429,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 292,
-        "episode_duration": "~24 мин",
+        "duration": "~24 мин",
         "seasons": 15,
         "genre": "комедия, ситком",
         "actors": [
@@ -3453,7 +3453,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 301,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 7,
         "genre": "драма, молодежный, семейный",
         "actors": [
@@ -3477,7 +3477,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 585,
-        "episode_duration": "~41 мин",
+        "duration": "~41 мин",
         "seasons": 16,
         "genre": "детектив, криминал, драма",
         "actors": [
@@ -3523,7 +3523,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 150,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 6,
         "genre": "комедия, семейный",
         "actors": [
@@ -3547,7 +3547,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 132,
-        "episode_duration": "~43 мин",
+        "duration": "~43 мин",
         "seasons": 3,
         "genre": "комедия, молодежный",
         "actors": [
@@ -3571,7 +3571,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 105,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 6,
         "genre": "комедия, мелодрама, история",
         "actors": [
@@ -3595,7 +3595,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 134,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 4,
         "genre": "детектив, триллер, мистика, драма",
         "actors": [
@@ -3641,7 +3641,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 12,
-        "episode_duration": "~45 мин",
+        "duration": "~45 мин",
         "seasons": 1,
         "genre": "комедия, мелодрама, музыкальный",
         "actors": [
@@ -3753,7 +3753,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 44,
-        "episode_duration": "~45 мин",
+        "duration": "~45 мин",
         "seasons": 3,
         "genre": "боевик, приключения, комедия",
         "actors": [
@@ -3799,7 +3799,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 11,
-        "episode_duration": "~53 мин",
+        "duration": "~53 мин",
         "seasons": 1,
         "genre": "драма, биография, история",
         "actors": [
@@ -3824,7 +3824,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 126,
-        "episode_duration": "~46 мин",
+        "duration": "~46 мин",
         "seasons": 4,
         "genre": "криминал, драма, детектив",
         "actors": [
@@ -3892,7 +3892,7 @@ media_data = {
         "translation": "13 февраля 2006",
         "age_rating": "16+",
         "episodes": 4,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "военный, драма, боевик",
         "actors": [
@@ -4246,7 +4246,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 8,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "фэнтези, комедия, приключения, семейный",
         "actors": [
@@ -4490,7 +4490,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 16,
-        "episode_duration": "~51 мин",
+        "duration": "~51 мин",
         "seasons": 2,
         "genre": "детектив, триллер, криминал, драма",
         "actors": [
@@ -4514,7 +4514,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 8,
-        "episode_duration": "~40 мин",
+        "duration": "~40 мин",
         "seasons": 1,
         "genre": "мистика, фэнтези, медицинская драма, триллер",
         "actors": [
@@ -4582,7 +4582,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 8,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 1,
         "genre": "детектив, мистика, триллер, история",
         "actors": [
@@ -4650,7 +4650,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 8,
-        "episode_duration": "~23 мин",
+        "duration": "~23 мин",
         "seasons": 1,
         "genre": "комедия, драма, семейный",
         "actors": [
@@ -4784,7 +4784,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 12,
-        "episode_duration": "~1 ч. 19 мин.",
+        "duration": "~1 ч. 19 мин.",
         "seasons": 1,
         "genre": "военный, детектив, драма, шпионский",
         "actors": [
@@ -4852,7 +4852,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 68,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 6,
         "genre": "скетч-комедия, сатира",
         "actors": [
@@ -4875,7 +4875,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 258,
-        "episode_duration": "~45 мин",
+        "duration": "~45 мин",
         "seasons": 12,
         "genre": "скетч-комедия, сатира, юмор, тв-шоу",
         "actors": [
@@ -4899,7 +4899,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 26,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 3,
         "genre": "комедия, фэнтези, детектив, драма",
         "actors": [
@@ -4923,7 +4923,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 149,
-        "episode_duration": "~1 ч. 12 мин.",
+        "duration": "~1 ч. 12 мин.",
         "seasons": "ongoing",
         "genre": "юмор, скетчи, эстрадное шоу, комедия, тв-шоу",
         "actors": [
@@ -4947,7 +4947,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 429,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 20,
         "genre": "скетч-шоу, юмор, сатира",
         "actors": [
@@ -4970,7 +4970,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 133,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 1,
         "genre": "юмор, тв-шоу",
         "actors": [
@@ -4994,7 +4994,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 25,
-        "episode_duration": "~45 мин",
+        "duration": "~45 мин",
         "seasons": 4,
         "genre": "юмор, интервью, треш-шоу, стендап, тв-шоу",
         "actors": [
@@ -5039,7 +5039,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": "20",
-        "episode_duration": "~46 мин.",
+        "duration": "~46 мин.",
         "seasons": "5",
         "genre": "детектив, мелодрама",
         "actors": [
@@ -5063,7 +5063,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": "20",
-        "episode_duration": "~44 мин.",
+        "duration": "~44 мин.",
         "seasons": "5",
         "genre": "детектив",
         "actors": [
@@ -5087,7 +5087,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": "111",
-        "episode_duration": "~47 мин",
+        "duration": "~47 мин",
         "seasons": 4,
         "genre": "детектив, криминал, боевик, драма",
         "actors": [
@@ -5110,7 +5110,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "18+",
         "episodes": 50,
-        "episode_duration": "~44 мин",
+        "duration": "~44 мин",
         "seasons": 1,
         "genre": "криминальная драма, детектив",
         "actors": [
@@ -5133,7 +5133,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 32,
-        "episode_duration": "~25 мин",
+        "duration": "~25 мин",
         "seasons": 2,
         "genre": "мультфильм, комедия, сатира",
         "actors": [
@@ -5157,7 +5157,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "12+",
         "episodes": 4,
-        "episode_duration": "~48 мин",
+        "duration": "~48 мин",
         "seasons": 1,
         "genre": "детектив, мелодрама",
         "actors": [
@@ -5180,7 +5180,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 4,
-        "episode_duration": "~44 мин",
+        "duration": "~44 мин",
         "seasons": 1,
         "genre": "детектив, мелодрама",
         "actors": [
@@ -5204,7 +5204,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 4,
-        "episode_duration": "~44 мин",
+        "duration": "~44 мин",
         "seasons": 1,
         "genre": "детектив, криминал, мелодрама",
         "actors": [
@@ -5227,7 +5227,7 @@ media_data = {
         "translation": "Оригинальный",
         "age_rating": "16+",
         "episodes": 4,
-        "episode_duration": "~50 мин",
+        "duration": "~50 мин",
         "seasons": 1,
         "genre": "детектив, мелодрама, драма",
         "actors": [
