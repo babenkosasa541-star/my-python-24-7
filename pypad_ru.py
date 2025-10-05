@@ -5396,7 +5396,7 @@ media_data = {
         ],
         "description": "Наталья — прима-балерина Мариинского театра. Её блестящая карьера и даже жизнь оказываются под угрозой из-за манипуляций и нездоровой ревности мужа-режиссера, который пытается полностью контролировать её творчество и жизнь.",
         "poster_url": "https://images.kinorium.com/movie/poster/9098735/w1500_53871584.jpg",
-        "rating": "6.7,
+        "rating": "6.7",
         "player_url": "https://far.allarknow.online/?kp=4903172&token=7c703bb60627c7c302f9b7c034ed29"
     },
 "kapitan-kryuk-prokljatyye-berega": {
