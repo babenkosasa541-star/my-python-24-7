@@ -1063,7 +1063,7 @@ media_data = {
         ],
         "description": "Приключения маленькой, неугомонной и очень любопытной девочки Маши, которая постоянно попадает в забавные и невероятные ситуации, и ее лучшего друга — циркового медведя. В каждой серии Маша находит себе новое занятие, которое приводит к весёлым последствиям для Медведя и всех обитателей леса.",
         "poster_url": "https://images-s.kinorium.com/movie/poster/578724/w1500_51986620.jpg",
-        "player_url": "http://185.236.229.62:9981/play/a02e",
+        "player_url": "https://etelstan-as.stloadi.live/?token_movie=dd14c2d32ba057d490449f98af457c&token=afcbfffc9c65a47844d1ad489212f3",
         "rating": "8.5",
     "seasons": "7",
     "episodes": "172",
@@ -5049,7 +5049,7 @@ media_data = {
         "description": "Молодой следователь Стас Ставицкий и его напарница Люся Ракитина расследуют запутанные уголовные дела, часто связанные с личными драмами. Люся, недавно пережившая трагедию, видит в работе своеобразное 'чистосердечное призвание', а ее профессионализм постоянно спасает Стаса от ошибок.",
         "poster_url": "https://images.kinorium.com/movie/poster/2661206/w1500_49986649.jpg",
         "rating": "6.0",
-        "player_url": "https://astrid-as.stloadi.live/?token_movie=e4d010eca892c31f9acfc69bd7ee42&token=9e664db6a930781b0597f2631aaecd"
+        "player_url": "https://vid1759653793.fotpro135alto.com/serial/a3536a1dd3f8106fb5a0bffab21ee99274afd37243dc0efc4901adae3a6b09c4/iframe?d=tartugi.net"
     },
 "zhenshchina-s-kotom-i-sobakoy": {
         "title": "Женщина с котом и собакой",
