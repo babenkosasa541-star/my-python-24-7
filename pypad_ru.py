@@ -5049,7 +5049,7 @@ media_data = {
         "description": "Молодой следователь Стас Ставицкий и его напарница Люся Ракитина расследуют запутанные уголовные дела, часто связанные с личными драмами. Люся, недавно пережившая трагедию, видит в работе своеобразное 'чистосердечное призвание', а ее профессионализм постоянно спасает Стаса от ошибок.",
         "poster_url": "https://images.kinorium.com/movie/poster/2661206/w1500_49986649.jpg",
         "rating": "6.0",
-        "player_url": "https://vid1759653793.fotpro135alto.com/serial/a3536a1dd3f8106fb5a0bffab21ee99274afd37243dc0efc4901adae3a6b09c4/iframe?d=tartugi.net"
+        "player_url": "https://vid1759685682.fotpro135alto.com/serial/a3536a1dd3f8106fb5a0bffab21ee99274afd37243dc0efc4901adae3a6b09c4/iframe?d=tartugi.net"
     },
 "zhenshchina-s-kotom-i-sobakoy": {
         "title": "Женщина с котом и собакой",
@@ -5445,7 +5445,7 @@ media_data = {
         "title": "Папины дочки. Новые",
         "full_title": "Папины дочки. Новые (сериал, 2023)",
         "director": "Александр Жигалкин, Дмитрий Грибанов",
-        "category": "Сериалы)",
+        "category": "Сериалы",
         "tagline": "Это их звёздный час!",
         "year": "2023",
         "release_date": "18 сентября 2023",
