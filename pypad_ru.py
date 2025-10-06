@@ -1970,7 +1970,7 @@ media_data = {
         ],
         "description": "Известный психотерапевт Сергей Васнецов оказывается в сложной ситуации: его жена уходит, оставив на него пять дочерей. Теперь ему приходится справляться с воспитанием девочек, каждая из которых обладает своим уникальным характером.",
         "poster_url": "https://images-s.kinorium.com/movie/poster/735093/w1500_53575356.jpg",
-        "player_url": "https://vid1758722239.fotpro135alto.com/serial/8be24ed53491461ce0bc24c884db0d43ec54a25f76eac8e5fe091ab55492e05f/iframe?d=tartugi.net",
+        "player_url": "https://api.namy.ws/embed/movie/9126",
         "rating": "7.5"
     },
 "tainy-sledstviya": {
@@ -3123,7 +3123,7 @@ media_data = {
         "seasons": "6",
         "episodes": "365",
         "rating": "4.9",
-        "player_url": "https://vid1758721982.fotpro135alto.com/serial/7d23ad62047641c121e0bf834df2210458197a015ce7221ef2681886f7875454/iframe?d=tartugi.net",
+        "player_url": "https://api.namy.ws/embed/movie/8552",
     },
   "marnie": {
     "title": "Марни",
