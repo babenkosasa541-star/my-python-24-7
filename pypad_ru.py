@@ -5522,7 +5522,7 @@ media_data = {
         "release_date": "7 марта 2021",
         "country": "Россия",
         "translation": "Оригинальный",
-        "age_rating": "12+",
+        "age_rating": "16+",
         "episodes": 4,
         "episode_duration": "~45 мин.",
         "seasons": 1,
@@ -5532,9 +5532,34 @@ media_data = {
             "Антон Васильев"
         ],
         "description": "Художница-реставратор Саша Корзухина и следователь Глеб Звонарев берутся за расследование загадочного дела. Им предстоит выяснить, несет ли одна привлекательная вдова, вокруг которой часто умирают мужчины, своеобразное проклятие или она сама является хладнокровной убийцей.",
-        "poster_url": "https://static.kinoafisha.info/k/series_posters/1080x1920/upload/series/posters/3/3/3/13333/480101857338.jpg",
+        "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_51967788.jpg",
         "rating": "7.1",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=bb10921ab174ab4ba056e1c73af113&token=9e664db6a930781b0597f2631aaecd"
+    },
+"dom-u-poslednego-fonarya": {
+        "title": "Дом у последнего фонаря",
+        "full_title": "Детективы Анны Малышевой. Дом у последнего фонаря (мини-сериал, 2017)",
+        "director": "Николай Барышников",
+        "channel": "ТВ Центр",
+        "category": "Сериалы",
+        "tagline": "Это их звёздный час!",
+        "year": "2017",
+        "release_date": "22 апреля 2017",
+        "country": "Россия",
+        "translation": "Оригинальный",
+        "age_rating": "16+",
+        "episodes": 4,
+        "episode_duration": "~45 мин.",
+        "seasons": 1,
+        "genre": "детектив",
+        "actors": [
+            "Елена Великанова", "Дмитрий Мазуров", "Александр Макогон",
+            "Игорь Сигов"
+        ],
+        "description": "Художница-реставратор Саша Корзухина и следователь Глеб Звонарев отправляются в приморский город, чтобы расследовать убийство, которое, как выясняется, связано с местным Домом у последнего фонаря и его старинными тайнами. Дело осложняется исчезновением ценной картины.",
+        "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_47345179.jpg",
+        "rating": "5.0",
+        "player_url": "https://astrid-as.stloadi.live/?token_movie=306c30a03edc48f9bbe6089732d1d3&token=9e664db6a930781b0597f2631aaecd"
     },
 
 }
