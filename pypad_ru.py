@@ -5582,7 +5582,7 @@ media_data = {
         "description": "Реставратор Саша Корзухина приглашена на вернисаж, где продаётся картина Сислея. Когда она приступает к работе над пейзажем, ей кажется, что картина странная. Тем временем человек, пытавшийся предупредить Сашу об опасности, погибает от взрыва.",
         "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_51967772.jpg",
         "rating": "5.8",
-        "player_url": https://astrid-as.stloadi.live/?token_movie=80c3c990a088c2a278440ac14ddf56&token=9e664db6a930781b0597f2631aaecd"
+        "player_url": "https://astrid-as.stloadi.live/?token_movie=80c3c990a088c2a278440ac14ddf56&token=9e664db6a930781b0597f2631aaecd"
     },
 
 }
