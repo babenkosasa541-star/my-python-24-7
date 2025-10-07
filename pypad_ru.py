@@ -5538,7 +5538,7 @@ media_data = {
     },
 "dom-u-poslednego-fonarya": {
         "title": "Дом у последнего фонаря",
-        "full_title": "Детективы Анны Малышевой. Дом у последнего фонаря (мини-сериал, 2017)",
+        "full_title": "Дом у последнего фонаря (мини-сериал, 2017)",
         "director": "Николай Барышников",
         "channel": "ТВ Центр",
         "category": "Сериалы",
@@ -5560,6 +5560,29 @@ media_data = {
         "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_47345179.jpg",
         "rating": "5.0",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=306c30a03edc48f9bbe6089732d1d3&token=9e664db6a930781b0597f2631aaecd"
+    },
+"sufler-malysheva": {
+        "title": "Суфлёр",
+        "full_title": "Суфлёр (мини-сериал, 2017)",
+        "director": "Николай Барышников",
+        "category": "Сериалы",
+        "tagline": "Это их звёздный час!",
+        "year": "2017",
+        "release_date": "29 апреля 2017",
+        "country": "Россия",
+        "translation": "Оригинальный",
+        "age_rating": "16+",
+        "episodes": 4,
+        "episode_duration": "~45 мин.",
+        "seasons": 1,
+        "genre": "детектив",
+        "actors": [
+            "Елена Великанова", "Дмитрий Бедерин", "Максим Щёголев"
+        ],
+        "description": "Реставратор Саша Корзухина приглашена на вернисаж, где продаётся картина Сислея. Когда она приступает к работе над пейзажем, ей кажется, что картина странная. Тем временем человек, пытавшийся предупредить Сашу об опасности, погибает от взрыва.",
+        "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_51967772.jpg",
+        "rating": "5.8",
+        "player_url": https://astrid-as.stloadi.live/?token_movie=80c3c990a088c2a278440ac14ddf56&token=9e664db6a930781b0597f2631aaecd"
     },
 
 }
