@@ -5512,6 +5512,30 @@ media_data = {
         "rating": "7.1",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=a2c78b38a2c006f9af80092d2d4789&token=9e664db6a930781b0597f2631aaecd"
     },
+"chernaya-vdova-tvts": {
+        "title": "Чёрная вдова",
+        "full_title": "Это их звёздный час!",
+        "director": "Юрий Попович",
+        "category": "Сериалы",
+        "tagline": "Это их звёздный час!",
+        "year": "2021",
+        "release_date": "7 марта 2021",
+        "country": "Россия",
+        "translation": "Оригинальный",
+        "age_rating": "12+",
+        "episodes": 4,
+        "episode_duration": "~45 мин.",
+        "seasons": 1,
+        "genre": "детектив",
+        "actors": [
+            "Елена Великанова", "Дмитрий Мазуров", "Александр Макогон",
+            "Антон Васильев"
+        ],
+        "description": "Художница-реставратор Саша Корзухина и следователь Глеб Звонарев берутся за расследование загадочного дела. Им предстоит выяснить, несет ли одна привлекательная вдова, вокруг которой часто умирают мужчины, своеобразное проклятие или она сама является хладнокровной убийцей.",
+        "poster_url": "https://static.kinoafisha.info/k/series_posters/1080x1920/upload/series/posters/3/3/3/13333/480101857338.jpg",
+        "rating": "7.1",
+        "player_url": "https://astrid-as.stloadi.live/?token_movie=bb10921ab174ab4ba056e1c73af113&token=9e664db6a930781b0597f2631aaecd"
+    },
 
 }
 # --- HTML-шаблон для главной страницы ---
