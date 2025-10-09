@@ -5584,7 +5584,52 @@ media_data = {
         "rating": "5.8",
         "player_url": "https://astrid-as.stloadi.live/?token_movie=80c3c990a088c2a278440ac14ddf56&token=9e664db6a930781b0597f2631aaecd"
     },
-
+    "tryufelniy-pes": {
+        "title": "Трюфельный пёс королевы Джованны",
+        "full_title": "Трюфельный пёс королевы Джованны (мини-сериал, 2017)",
+        "director": "Олег Штром",
+        "category": "Сериалы",
+        "tagline": "Это их звёздный час!",
+        "year": "2017",
+        "release_date": "2 декабря 2017",
+        "country": "Россия",
+        "translation": "Оригинальный",
+        "age_rating": "16+",
+        "episodes": 4,
+        "episode_duration": "~45 мин.",
+        "seasons": 1,
+        "genre": "детектив",
+        "actors": [
+            "Елена Великанова", "Дмитрий Бедерин", "Максим Щёголев"
+        ],
+        "description": "В жизни Саши Корзухиной внезапно появляется её мать, которую она не видела много лет, но вскоре женщина исчезает. Следователь подозревает мать в убийстве и похищении уникальной серебряной статуэтки — трюфельного пса. Саша начинает собственное расследование.",
+        "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_47364288.jpg",
+        "rating": "7,2",
+        "player_url": "https://thermometer.stloadi.live/?token_movie=338eb47ce1f7f23cabc86717cde191&token=4aed22782b3a4646f2953524f6a11f"
+},
+    "altar-tristana": {
+        "title": "Алтарь Тристана",
+        "full_title": "Алтарь Тристана (мини-сериал, 2017)",
+        "director": "Олег Штром",
+        "category": "Сериалы",
+        "tagline": "Это их звёздный час!",
+        "year": "2017",
+        "release_date": "9 декабря 2017",
+        "country": "Россия",
+        "translation": "Оригинальный",
+        "age_rating": "16+",
+        "episodes": 4,
+        "episode_duration": "~45 мин.",
+        "seasons": 1,
+        "genre": "детектив",
+        "actors": [
+            "Елена Великанова", "Дмитрий Мазуров", "Максим Щёголев"
+        ],
+        "description": "Переживая личный кризис, Саша Корзухина начинает работать консультантом в Следственном комитете. Её первое дело — загадочная череда смертей в московском театре. Жертвы перед смертью получают карты Таро, что указывает на опасного серийного убийцу.",
+        "poster_url": "https://images.kinorium.com/movie/poster/1606190/w1500_47364290.jpg",
+        "rating": "7,4",
+        "player_url": "https://far.allarknow.online/?kp=1045225&token=7c703bb60627c7c302f9b7c034ed29"
+    },
 }
 # --- HTML-шаблон для главной страницы ---
 main_page_template = """
