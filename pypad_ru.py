@@ -1,191 +1,97 @@
-import os
-from flask import Flask, render_template_string, redirect, url_for, request
+from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
-# --- БАЗА ДАННЫХ (Добавлено больше фильмов для теста фильтров) ---
-media_data = {
-    "ivan-vasilyevich-menyaet-professiyu": {
-        "title": "Иван Васильевич меняет профессию",
-        "full_title": "Иван Васильевич меняет профессию (1973)",
-        "category": "Фильмы",
-        "rating": "8.8",
-        "year": "1973",
-        "director": "Леонид Гайдай",
-        "country": "СССР",
-        "genre": "Комедия",
-        "poster_url": "https://ru-images-s.kinorium.com/movie/1080/65324.jpg?1613476278",
-        "description": "Советская комедия о машине времени.",
-        "video_stream_url": "http://localhost:8090/stream/ivan_vasilyevich.mkv"
-    },
-    "brilliantovaya-ruka": {
-        "title": "Бриллиантовая рука",
-        "full_title": "Бриллиантовая рука (1968)",
-        "category": "Фильмы",
-        "rating": "8.5",
-        "year": "1968",
-        "director": "Леонид Гайдай",
-        "country": "СССР",
-        "genre": "Комедия",
-        "poster_url": "https://ru-images-s.kinorium.com/movie/1080/65133.jpg",
-        "description": "История о контрабандистах и примерном семьянине.",
-        "video_stream_url": "#"
-    },
-    "interstellar": {
-        "title": "Интерстеллар",
-        "full_title": "Интерстеллар (2014)",
-        "category": "Фильмы",
-        "rating": "8.6",
-        "year": "2014",
-        "director": "Кристофер Нолан",
-        "country": "США",
-        "genre": "Фантастика",
-        "poster_url": "https://ru-images-s.kinorium.com/movie/1080/681755.jpg",
-        "description": "Путешествие через черную дыру.",
-        "video_stream_url": "#"
+# ТВОЯ МЕДИАТЕКА (Сюда просто добавляем новые блоки)
+media_library = [
+    {
+        "author": "Дюшес",
+        "title": "ДОБЫВАЕМ 1 ЛИТР ПИТЬЕВОЙ ВОДЫ ИЗ КАКТУСОВ",
+        "iframe": '<iframe src="https://vk.com/video_ext.php?oid=-162096641&id=456239470&hash=df6a2a1f04da367d" width="100%" height="400" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>'
     }
-}
+]
 
-# --- ШАБЛОНЫ ---
-
-# Общий CSS для всех страниц
-common_style = """
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-    body { font-family: 'Roboto', sans-serif; margin: 0; background: #0a0a0a; color: #fff; }
-    .container { max-width: 1200px; margin: auto; padding: 20px; }
-    a { text-decoration: none; color: inherit; }
-    
-    /* Шапка и поиск */
-    .header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; border-bottom: 1px solid #222; }
-    .search-box { display: flex; gap: 10px; }
-    .search-box input, .search-box select { padding: 10px; border-radius: 5px; border: 1px solid #333; background: #1a1a1a; color: white; }
-    .btn-search { background: #00adef; border: none; padding: 10px 20px; border-radius: 5px; color: white; cursor: pointer; }
-
-    /* Сетка фильмов */
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 25px; margin-top: 30px; }
-    .card { background: #1a1a1a; border-radius: 12px; overflow: hidden; transition: 0.3s; border: 1px solid #222; }
-    .card:hover { transform: translateY(-5px); border-color: #00adef; }
-    .card img { width: 100%; height: 320px; object-fit: cover; }
-    .card-info { padding: 15px; }
-    .card-title { font-weight: bold; font-size: 1.1em; margin-bottom: 5px; }
-    .card-meta { color: #888; font-size: 0.9em; }
-</style>
-"""
-
-main_template = f"""
+# Красивый дизайн сайта
+HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="ru">
-<head><meta charset="UTF-8"><title>Медиатека 24</title>{common_style}</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Library</title>
+    <style>
+        body { 
+            background-color: #0f0f0f; 
+            color: #ffffff; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid #333;
+            margin-bottom: 40px;
+        }
+        h1 { font-size: 2.5em; color: #00d1ff; margin: 0; }
+        .card { 
+            background: #1e1e1e; 
+            border-radius: 16px; 
+            overflow: hidden; 
+            margin-bottom: 40px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+        .card-content { padding: 20px; }
+        .author { 
+            color: #aaa; 
+            font-size: 0.9em; 
+            font-weight: bold; 
+            text-transform: uppercase;
+        }
+        .title { 
+            font-size: 1.5em; 
+            margin: 10px 0 20px 0; 
+            line-height: 1.3;
+        }
+        .video-container {
+            background: #000;
+            line-height: 0;
+        }
+    </style>
+</head>
 <body>
-<div class="container">
-    <div class="header">
-        <h1 style="color: #00adef;">Медиатека 24</h1>
-        <form action="/search" method="GET" class="search-box">
-            <input type="text" name="q" placeholder="Поиск фильма...">
-            <select name="genre">
-                <option value="">Все жанры</option>
-                <option value="Комедия">Комедия</option>
-                <option value="Фантастика">Фантастика</option>
-            </select>
-            <select name="year">
-                <option value="">Все годы</option>
-                <option value="1973">1973</option>
-                <option value="2014">2014</option>
-            </select>
-            <button type="submit" class="btn-search">Найти</button>
-        </form>
-    </div>
+    <div class="container">
+        <header>
+            <h1>🎬 МОЯ МЕДИАТЕКА</h1>
+            <p>Личный архив избранного контента</p>
+        </header>
 
-    <h2>Категории</h2>
-    <div style="display: flex; gap: 20px;">
-        <a href="/category/Фильмы" style="padding: 20px; background: #1a1a1a; border-radius: 10px; flex: 1; text-align: center; border: 1px solid #333;">🎬 Фильмы</a>
-        <a href="#" style="padding: 20px; background: #1a1a1a; border-radius: 10px; flex: 1; text-align: center; border: 1px solid #333; color: #555;">📺 Сериалы (Пусто)</a>
-    </div>
-
-    <h2>Рекомендуем</h2>
-    <div class="grid">
-        {% for id, item in items.items() %}
-        <a href="/media/{{ id }}" class="card">
-            <img src="{{ item.poster_url }}">
-            <div class="card-info">
-                <div class="card-title">{{ item.title }}</div>
-                <div class="card-meta">{{ item.year }} • {{ item.country }} • {{ item.genre }}</div>
-                <div style="color: #f39c12; margin-top: 5px;">★ {{ item.rating }}</div>
+        {% for item in library %}
+        <div class="card">
+            <div class="card-content">
+                <div class="author">{{ item.author }}</div>
+                <div class="title">{{ item.title }}</div>
             </div>
-        </a>
+            <div class="video-container">
+                {{ item.iframe | safe }}
+            </div>
+        </div>
         {% endfor %}
     </div>
-</div>
 </body>
 </html>
 """
-
-# Плеер остается из предыдущего ответа, но вписывается в общий дизайн
-media_template = f"""
-<!DOCTYPE html>
-<html lang="ru">
-<head><meta charset="UTF-8"><title>{{{{ media.full_title }}}}</title>{common_style}
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-<style>:root {{ --plyr-color-main: #00adef; }}</style>
-</head>
-<body style="background: #000;">
-<div class="container">
-    <a href="/" style="color: #00adef;">← Назад на главную</a>
-    <div style="margin-top: 20px; border-radius: 15px; overflow: hidden;">
-        <video id="player" playsinline controls data-poster="{{{{ media.poster_url }}}}">
-            <source src="{{{{ media.video_stream_url }}}}" type="video/mp4" />
-        </video>
-    </div>
-    <div style="display: flex; gap: 40px; margin-top: 30px; background: #111; padding: 30px; border-radius: 15px;">
-        <img src="{{{{ media.poster_url }}}}" style="width: 200px; border-radius: 10px;">
-        <div>
-            <h1>{{{{ media.full_title }}}}</h1>
-            <p><strong>Страна:</strong> {{{{ media.country }}}}</p>
-            <p><strong>Жанр:</strong> {{{{ media.genre }}}}</p>
-            <p style="color: #ccc;">{{{{ media.description }}}}</p>
-        </div>
-    </div>
-</div>
-<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-<script>const player = new Plyr('#player');</script>
-</body>
-</html>
-"""
-
-# --- ЛОГИКА ---
 
 @app.route('/')
-def index():
-    return render_template_string(main_template, items=media_data)
-
-@app.route('/category/<name>')
-def category_page(name):
-    filtered = {k: v for k, v in media_data.items() if v['category'] == name}
-    return render_template_string(main_template, items=filtered)
-
-@app.route('/search')
-def search():
-    query = request.args.get('q', '').lower()
-    genre = request.args.get('genre', '')
-    year = request.args.get('year', '')
-    
-    results = {}
-    for k, v in media_data.items():
-        match_q = query in v['title'].lower() or query in v['description'].lower()
-        match_genre = genre == '' or v['genre'] == genre
-        match_year = year == '' or v['year'] == year
-        
-        if match_q and match_genre and match_year:
-            results[k] = v
-            
-    return render_template_string(main_template, items=results)
-
-@app.route('/media/<id>')
-def media_page(id):
-    media = media_data.get(id)
-    if not media: return redirect('/')
-    return render_template_string(media_template, media=media)
+def home():
+    return render_template_string(HTML_TEMPLATE, library=media_library)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    # Запуск сервера
+    # host='0.0.0.0' позволяет подключаться извне
+    app.run(host='0.0.0.0', port=5000, debug=True)
